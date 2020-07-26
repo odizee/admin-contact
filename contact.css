@@ -283,23 +283,8 @@ button {
 
 @media only screen and (max-height: 786px) {
     .low-bd {
-        height: 125vh !important
+        height: 105vh !important
     }
-}
-
-
-
-@media screen and (max-height: 737px) {
-    .low-bd {
-        height: 140vh !important
-    }
-}
-
-@media screen and (max-height: 731px) {
-    .low-bd {
-        height: 140vh !important
-    }
-}
 
 
 @media screen and (max-height: 667px){
