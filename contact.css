@@ -20,9 +20,7 @@
         
 }
 
-.low-bd {
-        height: 20vh !important
-    }
+
 
 .logo-sec {
     background-color: #FFF;
@@ -114,6 +112,14 @@ button {
     font-size: 24px;
     line-height: 152%;
     color: #FFFFFF;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+    color: #F1F1F1;
+    background-color: #00b3db;
+    border-color: none !important; 
+    box-shadow: none;
+    
 }
 
 footer{
@@ -275,13 +281,12 @@ button {
     }
 }
 
-/*
-@media screen and (max-height: 767px) {
+@media only screen and (max-height: 786px) {
     .low-bd {
-        height: 100vh !important
+        height: 125vh !important
     }
 }
-*/
+
 
 
 @media screen and (max-height: 737px) {
