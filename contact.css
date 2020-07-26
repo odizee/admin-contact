@@ -6,21 +6,22 @@
     padding: 0;
     margin: 0;
     font-weight: normal;
-    position: 
+     background-color: #F9F9F9;
     }
 
 .inner-con{
-    position: absolute;
-    left: 7vw;
-    right: 8vw;
+    position: relative;
+    top: 3vh;
     width: 70vw;
-/*    margin-left: 10vw;*/
-    padding-bottom: 20px;
-    overflow: hidden;
-        
+    margin-bottom: 5vw;
+    padding-bottom: 0px;
+    overflow: hidden; 
+    margin-left: auto;
 }
 
-
+.low-bd {
+        height: 20vh !important
+    }
 
 .logo-sec {
     background-color: #FFF;
@@ -33,8 +34,12 @@
 }
 
 .heading-area {
-    height: 228px;
-    background: #F9F9F9;
+    position: relative;
+    height: 258px;
+    background-color: #F9F9F9;
+    width: 110%;
+    margin-left: -15px;
+    
 }
 
 .head-text{
@@ -57,6 +62,11 @@
 .head-text h2 {
     font-size: 2rem;
     margin-bottom: ;
+}
+
+.head-text, .head-text h2, .head-text h1, .mail-img {
+    position: relative;
+    right: 2.5%
 }
 
 .message-area {
@@ -114,20 +124,13 @@ button {
     color: #FFFFFF;
 }
 
-.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
-    color: #F1F1F1;
-    background-color: #00b3db;
-    border-color: none !important; 
-    box-shadow: none;
-    
-}
-
 footer{
     background-color: #1F2430;
     height: 50px;   
     text-align: center;
     padding: 15px;
     position: ;
+    margin-top: 50px
 }
 
 footer span {
@@ -156,6 +159,12 @@ footer span {
     line-height: 152%;
     color: #FFFFFF;
 }
+    
+.head-text, .head-text h2, .head-text h1, .mail-img {
+    position: relative;
+    right: 1%
+}
+
 }
 
 @media screen and (max-width: 877px) {
@@ -168,13 +177,17 @@ footer span {
     color: #FFFFFF;
 }
     
-.inner-con{
-    width: 80vw;
-}
-    
+ 
 button {
        width: 30vw; 
     }
+    
+.head-text, .head-text h2, .head-text h1, .mail-img {
+    position: relative;
+    right: 1%;
+    font-size: 1.8rem
+}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -205,21 +218,21 @@ button {
 }
 }
 
+}
+
 @media screen and (max-width: 464px) {
     .low-bd {
         height: 120px !important
     }
     
     
-    .inner-con{
-    width: 80vw;
-}
     
     .heading-area{
     height: 33vh;
     padding-bottom: 50px;
     padding-left: 0px;
     padding-right: 0px;
+    
     }
     
         .head-text h1{
@@ -229,27 +242,59 @@ button {
     .head-text h2{
         font-size: 1.3rem
     }
+    
+.head-text, .head-text h2, .head-text h1, .mail-img {
+    position: relative;
+    right: 1%;
+    font-size: 1.8rem
 }
 
-@media screen and (max-width: 380px) {
+}
+
+@media screen and (max-width: 450px) {
+.heading-area {
+    position: relative;
+    height: 258px;
+    background-color: #F9F9F9;
+    width: 115%;
+    margin-left: -15px;
+    text-align: center;
+    
+}
+    
+.head-text h2{
+        font-size: 1.2rem
+    }
+}
+@media screen and (max-width: 370px) {
     .heading-area{
     height: 35vh;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    padding: 2px;
     padding-right: 0px;
+    width: 117%;
+    margin-left: -15px;
+    text-align: center;
     }
     
     .head-text h1{
         font-size: 1.6rem;
-        font-weight: 800
+        font-weight: 800;
     }
     .head-text h2{
-        font-size: 1.3rem
+        position: relative;
+        font-size: 1.2rem;
+        padding: 2px;
+        margin-left: auto;
+        left: -8px
     }
     
-    .inner-con{
-    width: 80vw;
+.head-text, .head-text h2, .head-text h1, .mail-img {
+    position: relative;
+    left: -2px;
+
 }
+
+
     
 button {
     width: 100vw; 
@@ -266,53 +311,13 @@ button {
         height: 70px
     }
     
-}
-
-@media screen and (max-height: 1024px) {
-    .low-bd {
-        height: 90vh !important
-    }
-}
-
-
-@media screen and (max-height: 823px) {
-    .low-bd {
-        height: 125vh !important
-    }
-}
-
-@media only screen and (max-height: 786px) {
-    .low-bd {
-        height: 115vh !important
-    }
-
-
-@media screen and (max-height: 667px){
- .low-bd {
-        height: 155vh !important
-    }   
-}
-
-@media only screen and (height: 657px){
- .low-bd {
-        height: 125vh !important
-    }   
-}
-
-@media only screen and (height: 653px){
- .low-bd {
-        height: 150vh !important
-    }   
-}
-
-@media screen and (max-height: 568px) {
- .low-bd {
-        height: 183vh !important
-    }   
     
-    .heading-area{
-    height: 38vh;
-     }
+.head-text, .head-text h2, .head-text h1, .mail-img {
+    position: relative;
+    right: %;
+
+}
+    
 }
 
 
