@@ -1,0 +1,328 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*, body {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    position: 
+    }
+
+.inner-con{
+    position: absolute;
+    left: 7vw;
+    right: 8vw;
+    width: 70vw;
+/*    margin-left: 10vw;*/
+    padding-bottom: 20px;
+    overflow: hidden;
+        
+}
+
+.low-bd {
+        height: 20vh !important
+    }
+
+.logo-sec {
+    background-color: #FFF;
+    height: 90px;
+    margin-top: 30px;
+}
+
+.mail-img {
+    margin-top: 21px;
+}
+
+.heading-area {
+    height: 228px;
+    background: #F9F9F9;
+}
+
+.head-text{
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.3vw;
+    line-height: 124.8%;
+    color: #353A45;
+    margin-top: 22px;
+    margin-bottom: 49px;
+}
+
+.head-text h1{
+     font-weight: bold;
+    
+}
+
+.head-text h2 {
+    font-size: 2rem;
+    margin-bottom: ;
+}
+
+.message-area {
+    background-color: #FFFFFF;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.message-area h3 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 152%;
+    color: #353A45;
+}
+
+.message-area p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 152%;
+    color: #353A45;
+}
+
+.em-ph p{
+    color: #00945E;
+}
+
+.main-mess {
+    
+    margin-bottom: 132px;
+}
+
+button {
+    padding: 20px 40px;
+    width:  18.92vw;
+    height: 11.8vh;
+    background-color: #00945E !important;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 4px 8px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 152%;
+    color: #FFFFFF;
+}
+
+footer{
+    background-color: #1F2430;
+    height: 50px;   
+    text-align: center;
+    padding: 15px;
+    position: ;
+}
+
+footer span {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.copy {
+    position: relative;
+    font-size: 20px;
+    top: 2px;
+}
+
+
+
+@media screen and (max-width: 1054px) {
+    .btn {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 152%;
+    color: #FFFFFF;
+}
+}
+
+@media screen and (max-width: 877px) {
+    .btn {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 152%;
+    color: #FFFFFF;
+}
+    
+.inner-con{
+    width: 80vw;
+}
+    
+button {
+       width: 30vw; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .low-bd {
+        height: 150vh !important
+    }
+    
+.head-text h1 {
+    font-size: 1.6rem;
+    
+}
+    
+.head-text h2 {
+    font-size: 1.4rem;
+    
+}
+    
+.message-area h3, .message-area p{
+    font-size: 1rem
+    }
+.message-area p{
+        
+    }
+    
+button {
+    width: 50vw; 
+    }
+}
+}
+
+@media screen and (max-width: 464px) {
+    .low-bd {
+        height: 120px !important
+    }
+    
+    
+    .inner-con{
+    width: 80vw;
+}
+    
+    .heading-area{
+    height: 33vh;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    
+        .head-text h1{
+        font-size: 1.6rem;
+        font-weight: 800
+    }
+    .head-text h2{
+        font-size: 1.3rem
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .heading-area{
+    height: 35vh;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    
+    .head-text h1{
+        font-size: 1.6rem;
+        font-weight: 800
+    }
+    .head-text h2{
+        font-size: 1.3rem
+    }
+    
+    .inner-con{
+    width: 80vw;
+}
+    
+button {
+    width: 100vw; 
+    }
+.btn {
+     font-size: 1rem
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+    
+    footer {
+        height: 70px
+    }
+    
+}
+
+@media screen and (max-height: 1024px) {
+    .low-bd {
+        height: 90vh !important
+    }
+}
+
+
+@media screen and (max-height: 823px) {
+    .low-bd {
+        height: 125vh !important
+    }
+}
+
+/*
+@media screen and (max-height: 767px) {
+    .low-bd {
+        height: 100vh !important
+    }
+}
+*/
+
+
+@media screen and (max-height: 737px) {
+    .low-bd {
+        height: 140vh !important
+    }
+}
+
+@media screen and (max-height: 731px) {
+    .low-bd {
+        height: 140vh !important
+    }
+}
+
+
+@media screen and (max-height: 667px){
+ .low-bd {
+        height: 155vh !important
+    }   
+}
+
+@media only screen and (height: 657px){
+ .low-bd {
+        height: 125vh !important
+    }   
+}
+
+@media only screen and (height: 653px){
+ .low-bd {
+        height: 150vh !important
+    }   
+}
+
+@media screen and (max-height: 568px) {
+ .low-bd {
+        height: 183vh !important
+    }   
+    
+    .heading-area{
+    height: 38vh;
+     }
+}
+
+
